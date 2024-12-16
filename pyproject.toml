@@ -20,6 +20,13 @@ seaborn = "^0.12.2"
 pyarrow = "^17.0.0"
 spacy = "^3.8.2"
 es_core_news_md = { url = "https://github.com/explosion/spacy-models/releases/download/es_core_news_md-3.8.0/es_core_news_md-3.8.0-py3-none-any.whl" }
+simpleai = "^0.8.3"
+flask = "^3.1.0"
+pydot = "^3.0.3"
+graphviz = "^0.20.3"
+opencv-python = "^4.10.0.84"
+hampel = "^1.0.2"
+bokeh = "^3.6.2"
 
 [tool.poetry.group.dev.dependencies]
 ipykernel = "^6.29.5"
