@@ -148,6 +148,7 @@ def main(MAP_ASCII,COSTS,algorithms,heuristic_number=1):
     for algorithm in algorithms:
       problem = GameWalkPuzzle(MAP,COSTS,heuristic_number)
       used_viewer=BaseViewer()
+      
       # Probad también ConsoleViewer para depurar
       # No podréis usar WebViewer en Collab para ver los árboles
 
