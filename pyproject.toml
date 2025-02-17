@@ -30,6 +30,8 @@ bokeh = "^3.6.2"
 ucimlrepo = "^0.0.7"
 scipy = "^1.14.1"
 tensorflow = "^2.18.0"
+dask = "^2025.2.0"
+spacy-langdetect = "^0.1.2"
 
 [tool.poetry.group.dev.dependencies]
 ipykernel = "^6.29.5"
