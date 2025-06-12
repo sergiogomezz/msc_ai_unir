@@ -162,4 +162,5 @@ cython_debug/
 .vscode/
 data/
 examples/
-VA/Actividad_3/img/
+Unsupervised Learning/Activity_1/examples
+VA/Actividad_3/img/.venv/
