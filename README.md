@@ -1,14 +1,35 @@
-# MSC_AI_UNIR
-Repo for the projects submitted during the AI Master's program
+# 🎓 MSC_AI_UNIR
 
+This repository contains the main projects developed during my MSc in Artificial Intelligence at UNIR (Universidad Internacional de La Rioja). Each folder corresponds to a specific course or subject, covering various areas of applied AI.
 
-## Set up
-Para asegurar consistencia se utiliza **python version = 3.11.0**. Además, se usa `pyenv` para la gestión de versiones de python y `poetry` para gestionar virtualenvs y dependencias. Estas tecnologías son una elección en cierta medida arbitraria, aunque las herramientas utilizadas son ampliamente empleadas, hay otras opciones como `venv`, `virtualenv` o `pipenv` para virtualenvs, o conda para gestión de paquetes, que también se utilizan de forma extensa.
+## 📚 Course Modules Included
 
+- Machine Learning Techniques
+- Natural Language Processing (NLP)
+- Computer Vision
+- Reinforcement Learning & Agents
+- Research in AI
+- Neural Networks & Deep Learning
+- Unsupervised Learning
+- Cloud Computing Tools in AI
 
-**RECORDAD: Es importante no utilizar el python del sistema ya que acabaremos teniendo conflictos entre proyectos muy rápido. Por eso, utilizaremos siempre un virtualenv separado para cada proyecto.**
+---
 
-Para configurar nuestro entorno de trabajo primero instalamos python 3.11.0 en el ordenador usando pyenv `pyenv install 3.11.0`. 
-Después, una vez estemos en el repositorio de trabajo (tras haber hecho un fork del repositorio original), nos aseguramos de que estamos utilizando ese python localmente `pyenv local 3.11.0`. Podemos comprobar que todo está correcto mediante el comando `pyenv versions`, que nos debería mostrar 3.11.0 con un asterisco que denota que es la versión utilizada en el directorio actual. IMPORTANTE: si utilizáis ubuntu con WSL es posible que poetry no utilice la versión local de `pyenv` y sea necesario forzarlo con `poetry env use 3.11.0` [ver aquí](https://stackoverflow.com/questions/70950511/using-poetry-with-pyenv-and-having-python-version-issues).
+## ⚙️ Environment Setup
 
-Una vez asegurada que la versión de python es correcta pasamos a instalar las dependencias iniciales definidas en `pyproject.toml` mediante el comando `poetry install`. Una vez instaladas, si necesitamos añadir una nueva dependencia podemos hacerlo con `poetry add <paquete>`.
+To ensure consistency across environments and avoid dependency issues, this repository uses:
+
+- **Python 3.11.0**, managed with [`pyenv`](https://github.com/pyenv/pyenv)  
+- Virtual environments and dependencies managed with [`poetry`](https://python-poetry.org/)
+
+> ⚠️ **IMPORTANT:** Never use the system-wide Python interpreter directly. Always work within an isolated virtual environment to prevent conflicts between projects.
+
+---
+
+### 🛠 Step-by-Step Setup Instructions
+
+#### 1. Install Python 3.11.0 with pyenv
+Make sure `pyenv` is installed on your system (via Homebrew, apt, etc.). Then run:
+
+```bash
+pyenv install 3.11.0
